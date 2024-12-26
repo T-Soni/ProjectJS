@@ -45,4 +45,28 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 */
 
 let num = 33
-console.log(String(num));
+// console.log(String(num));
+
+//***********************Operations********************* */
+
+let value = 3
+// console.log(-value);
+// console.log(2**3); //2^3
+
+let str1 =  "abc"
+let str2 =  " abcd"
+// console.log(str1 + str2);
+// console.log("1" + 2);
+// console.log("1" + 2 + 2);
+// console.log(1 + "2");
+// console.log(1 + 2 + "2");
+// console.log(1 + "2" + 2);
+
+console.log(true);
+console.log(+true);
+// console.log(true+); //=>error
+
+
+
+
+
