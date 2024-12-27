@@ -40,3 +40,27 @@ console.log(typeof bigNumber);
 console.log(typeof outsideTemp); //object tho null
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+/* Stack -> Primitive -> creates a copy
+    Heap -> Non-Primitive -> passes direct refernce
+    variable declared in stack -> value in heap -> variable points to value's addr in heap
+     */
+let animal = "cat"
+let anotherAnimal = animal
+anotherAnimal = "dog"
+console.log(animal);
+console.log(anotherAnimal);
+
+let userOne = {
+    name: "Ram",
+    marks:40,
+}
+
+let userTwo = userOne
+
+userTwo.marks = 70
+console.log(userOne.marks);
+console.log(userTwo.marks);
+
+
